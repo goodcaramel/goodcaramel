@@ -120,7 +120,7 @@ footer {
 }
 
 .ticket-image {
-    width: 1000px; /* Adjust as needed */
+    width: 600px; /* Adjust as needed */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
