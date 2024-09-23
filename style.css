@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #161617cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #161617cc;
+}
+
+
+.concert-details, .venue-details, .contact-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Concert Section */
+.concerts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.concert {
+    text-align: center;
+    width: 45%;
+}
+
+.concert img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.venue-details {
+    margin-top: 40px;
+}
+
+.venues {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.venue, .seating {
+    text-align: center;
+    width: 45%;
+}
+
+.venue img, .seating img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #161617cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1616;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Ticket Image */
+.ticket {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.ticket-image {
+    width: 1000px; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* style.css */
+
+.contact-form {
+    text-align: center; /* Center text within the contact form section */
+    margin: 20px; /* Add margin for spacing */
+}
+
+.contact-form h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.contact-form p {
+    margin-bottom: 15px; /* Space below the paragraph */
+}
+
+.contact-form a {
+    display: inline-block; /* Make the link block-level for better spacing */
+    margin-top: 10px; /* Space above the link */
+    padding: 10px 20px; /* Add padding to the link */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.contact-form a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.contact-form h3 {
+     colour: #161617cc
+     margin-bottom: 35px;
+      }
+.contact-form h4 {
+     colour: #161617cc
+     margin-bottom: 30px;
+      }
+
+/* About Us Section */
+.about-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto; /* Add margin to separate from the main section */
+}
+
+.about-section h2 {
+    color: #1616177cc
+    margin-bottom: 20px;
+}
+
+
+.about-section p {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
